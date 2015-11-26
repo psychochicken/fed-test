@@ -1,0 +1,22 @@
+.intro {
+  text-align: center;
+  padding-bottom: 80px;
+
+  h2 {
+    font-size: 16px;
+    color: $text-grey;
+    margin-bottom: 40px;
+
+    span {
+      font-family: $font-garamond-italic;
+      font-style: italic;
+      text-transform: lowercase;
+    }
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 55px;
+  }
+}

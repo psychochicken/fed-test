@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'avenir-roman';
+    src:url('../assets/fonts/avenir-roman.eot');
+    src:url('../assets/fonts/avenir-roman.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/avenir-roman.woff') format('woff'),
+        url('../assets/fonts/avenir-roman.ttf') format('truetype'),
+        url('../assets/fonts/avenir-roman.svg#font-name') format('svg');
+}
+
+@font-face {
+    font-family: 'avenir-black';
+    src:url('../assets/fonts/avenir-black.eot');
+    src:url('../assets/fonts/avenir-black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/avenir-black.woff') format('woff'),
+        url('../assets/fonts/avenir-black.ttf') format('truetype'),
+        url('../assets/fonts/avenir-black.svg#font-name') format('svg');
+}
+
+@font-face {
+    font-family: 'garamond-italic';
+    src:url('../assets/fonts/garamond-italic.eot');
+    src:url('../assets/fonts/garamond-italic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/garamond-italic.woff') format('woff'),
+        url('../assets/fonts/garamond-italic.ttf') format('truetype'),
+        url('../assets/fonts/garamond-italic.svg#font-name') format('svg');
+    font-style: italic;
+}

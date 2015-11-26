@@ -1,0 +1,28 @@
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+@import 'partials/_normalize.scss';
+
+@import 'project/_fonts.scss';
+@import 'project/_variables.scss';
+@import 'project/_global.scss';
+
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+@import 'partials/_typography.scss';
+@import 'partials/_buttons.scss';
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
+@import 'modules/_module-base.scss';
+@import 'modules/_header.scss';
+@import 'modules/_intro.scss';
+@import 'modules/_feature-slider.scss';
+@import 'modules/_img-with-blurb.scss';
+@import 'modules/_img-blocks.scss';
+@import 'modules/_more-layouts.scss';
+@import 'modules/_imgs-with-captions.scss';
+@import 'modules/_more-projects.scss';
+@import 'modules/_footer.scss';

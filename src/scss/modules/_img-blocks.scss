@@ -1,0 +1,24 @@
+.img-blocks {
+  padding-top: 0;
+  text-align: center;
+  overflow: hidden;
+
+  img.one {
+    display:inline-block;
+    width:100%;
+    margin-bottom: 10px;
+  }
+
+  img.two, img.three {
+    width: 50%;
+    float: left;
+  }
+
+  img.two {
+    padding-right: 5px;
+  }
+
+  img.three {
+    padding-left: 5px;
+  }
+}

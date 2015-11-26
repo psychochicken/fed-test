@@ -1,0 +1,33 @@
+// VARIABLES (ROOT)
+//----------------------------------------
+
+// Grid Variables
+//----------------------------------------
+$screen-xs:                  320px;
+$screen-sm:                  768px;
+$screen-md:                  1024px;
+
+// TYPOGRAPHY
+//----------------------------------------
+$base-font-size: 18 !default;
+// $base-line-height: 20px !default;
+// $desktop-font-size: 18 !default;
+// $desktop-line-height: 24px !default;
+
+// FONTS
+//----------------------------------------
+$font-avenir-roman: 'avenir-roman', Arial, sans-serif;
+$font-avenir-black: 'avenir-black', Arial, sans-serif;
+$font-garamond-italic: 'garmond-italic', Arial, sans-serif;
+
+// COLORS
+//----------------------------------------
+// style guide colours
+$dark-grey: #1a1a1a;
+$text-grey: #9e9e9e;
+$border-grey:  #2e2e2e;
+
+// MODULES
+//----------------------------------------
+$base-mobile-padding: 20px;
+$base-desktop-padding: 32px;

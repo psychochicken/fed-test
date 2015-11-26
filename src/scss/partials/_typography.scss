@@ -1,0 +1,22 @@
+h1, h2, h3, h4 {
+  font-family: $font-avenir-black;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 18px;
+  color: $text-grey;
+}

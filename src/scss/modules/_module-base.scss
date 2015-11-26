@@ -1,0 +1,17 @@
+.module {
+  max-width: $screen-md;
+  width: 100%;
+  display: block;
+  padding: $base-mobile-padding;
+  margin: 0 auto;
+
+  &.no-padding-top {
+    padding-top: 0;
+  }
+}
+
+@media ( min-width: $screen-md ) {
+  .module {
+    padding: $base-desktop-padding;
+  }
+}

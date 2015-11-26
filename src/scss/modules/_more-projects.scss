@@ -1,0 +1,45 @@
+.more-projects {
+  overflow: hidden;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (min-width: 520px) {
+  .more-projects {
+    .project-wrapper {
+      width: calc(100% + 10px);
+      overflow:hidden;
+    }
+
+    .project {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+@media (min-width: $screen-md) {
+  .more-projects {
+
+    .project {
+      width: calc(25% - 10px);
+    }
+  }
+}
